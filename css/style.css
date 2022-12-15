@@ -1,0 +1,199 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#home__nav__top {
+  width: 100%;
+  height: 40px;
+  background-color: #233a95;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#home__nav__top p {
+  font-size: 14px;
+}
+
+#home__nav__bottom {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid rgb(224, 221, 221);
+  display: flex;
+}
+
+.continer {
+  width: 70%;
+  height: 300vh;
+  margin-left: 15%;
+}
+
+.home__nav__bottom__links {
+  width: 28%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.home__nav__bottom__links a {
+  margin: 10px;
+  font-size: small;
+  text-decoration: none;
+  color: black;
+}
+.home__nav__bottom__links a:hover {
+  color: #0693e3;
+}
+
+.home__nav__bottom__icon {
+  width: 35%;
+  height: 50px;
+  display: flex;
+  font-size: small;
+  align-items: center;
+}
+.home__nav__bottom__icon p {
+  margin-left: 70px;
+}
+
+.xtt_1 {
+  width: 1px;
+  height: 20px;
+  border: 1px solid rgb(224, 221, 221);
+  margin-top: 15px;
+  margin-right: 5px;
+}
+
+.home__nav__bottom__number {
+  width: 20%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid rgb(224, 221, 221);
+  font-size: small;
+}
+.home__nav__bottom__number span {
+  color: #0693e3;
+}
+.home__nav__bottom__number span:hover {
+  text-decoration: underline;
+}
+
+.home__nav__bottom__input {
+  width: 15%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  font-size: small;
+}
+.home__nav__bottom__input span {
+  margin: 10px;
+}
+.home__nav__bottom__input span:hover {
+  color: #0693e3;
+}
+
+.home__navbar__top {
+  width: 100%;
+  height: 200px;
+  margin-top: 50px;
+  display: flex;
+}
+.home__navbar__top img {
+  width: 170px;
+  height: 40px;
+  cursor: pointer;
+}
+.home__navbar__top p {
+  font-size: 12px;
+  color: rgb(168, 166, 166);
+}
+
+.home__modal {
+  width: 20%;
+  height: 80px;
+  margin-left: 30px;
+  display: flex;
+}
+.home__modal button {
+  width: 80%;
+  height: 60px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+  border: 0.5px solid rgb(168, 166, 166);
+}
+.home__modal button p {
+  margin-left: -70px;
+}
+.home__modal button span {
+  color: #233a95;
+  margin-left: -35px;
+}
+.home__modal button i {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: -20px;
+}
+.home__modal button:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.home__navbar__top__input {
+  width: 40%;
+  height: 70px;
+  margin-left: 20px;
+}
+.home__navbar__top__input i {
+  position: absolute;
+  margin-top: -45px;
+  margin-left: 450px;
+  font-size: 25px;
+  color: rgb(35, 35, 35);
+}
+.home__navbar__top__input input {
+  width: 500px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: rgb(238, 237, 237);
+  border: none;
+}
+
+.home__navbar__top__icon__user {
+  width: 10%;
+  height: 60px;
+}
+.home__navbar__top__icon__user i {
+  margin-left: 70px;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid rgb(201, 199, 199);
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.home__navbar__top__num {
+  width: 10%;
+  height: 80px;
+}
+.home__navbar__top__num p {
+  color: black;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.home__navbar__top__icon__bag {
+  width: 5%;
+  height: 80px;
+}
+.home__navbar__top__icon__bag i {
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgb(255, 191, 191);
+  border-radius: 50%;
+  color: red;
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */
