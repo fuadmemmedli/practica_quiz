@@ -1,31 +1,23 @@
-// const homeBtn = document.getElementsByClassName('home__navbar__bottom__btn')
-// const homeCategory = document.getElementsByClassName('home__top__body__left')
-// const homeBtn = document.getElementsByClassName('home__navbar__bottom__btn').addEventListener("click", myFunc)
+const sldBtn = document.querySelectorAll("[data-carousel-button]");
+ 
 
-// function myFunc() {
-//     document.getElementsByClassName('home__top__body__left').style.display='block'
-//   }
+sldBtn.forEach(button => {
+    button.addEventListener('click',()=>{
+        const offset = button.dataset.carouselButton === "next" ? 1 : -1
+        const slides = button
+        .closest("[data-carousel]")
+        .querySelector("[data-slides]")
+        const activeSlide = slides.querySelector("[data-active]")
+        let newIndex = [...slides.children].indexOf(activeSlide) + offset
+        if (newIndex < 0) newIndex = slides.children.length - 1
+        if(newIndex >= slides.children.length) newIndex = 0
 
-//   var x = document.getElementsByClassName("home__navbar__bottom__btn");
-// x.addEventListener("click", function(){ 
-//     slm(document.getElementById("home__navbar__bottom__btn")); });
-
-
-// function slm(dis) {
-//     document.getElementsByClassName('home__navbar__bottom__btn').style.display="block";
-// }
+        slides.children[newIndex].dataset.active = true
+        delete activeSlide.dataset.active
+    })
+})
 
 
 
 
-// var x = document.getElementById("n1");
-// x.addEventListener("mouseover", function(){ 
-//     mOverImg(document.getElementById("n1")); });
-// x.addEventListener("mouseout", function(){ mOutImg(document.getElementById("n1")); });
 
-// function mOverImg(img) {
-//     img.style.opacity="0";
-// }
-
-// function mOutImg(img) {
-//     img.style.opacity="1";
